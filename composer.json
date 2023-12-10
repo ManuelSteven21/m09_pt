@@ -1,0 +1,22 @@
+{
+  "name": "alumne/m09romerosteven",
+  "type": "project",
+  "autoload": {
+    "classmap": [
+      "./"
+    ],
+    "files": [
+      "framework/helpers.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "alumne",
+      "email": "mromero1@iesebre.com"
+    }
+  ],
+  "require": {
+      "vlucas/phpdotenv": "^5.5",
+      "ext-pdo": "*"
+  }
+}
